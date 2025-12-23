@@ -1,0 +1,11 @@
+# 编译产物
+build/
+
+# 用户词库数据库
+*.userdb/
+
+# 同步数据
+sync/
+
+# macOS
+.DS_Store
