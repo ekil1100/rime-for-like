@@ -1,0 +1,41 @@
+patch:
+  speller:
+    algebra:
+      - derive/^([zcs])h/$1/
+      - derive/^([zcs])([^h])/$1h$2/
+      - derive/ang$/an/
+      - derive/an$/ang/
+      - derive/eng$/en/
+      - derive/en$/eng/
+      - derive/in$/ing/
+      - derive/ing$/in/
+      - "erase/^xx$/"
+      - "derive/^([jqxy])u$/$1v/"
+      - "derive/^([aoe])([ioun])$/$1$1$2/"
+      - "xform/^([aoe])(ng)?$/$1$1$2/"
+      - "xform/iu$/Ⓠ/"
+      - "xform/(.)ei$/$1Ⓦ/"
+      - "xform/uan$/Ⓡ/"
+      - "xform/[uv]e$/Ⓣ/"
+      - "xform/un$/Ⓨ/"
+      - "xform/^sh/Ⓤ/"
+      - "xform/^ch/Ⓘ/"
+      - "xform/^zh/Ⓥ/"
+      - "xform/uo$/Ⓞ/"
+      - "xform/ie$/Ⓟ/"
+      - "xform/(.)i?ong$/$1Ⓢ/"
+      - "xform/ing$|uai$/Ⓚ/"
+      - "xform/(.)ai$/$1Ⓓ/"
+      - "xform/(.)en$/$1Ⓕ/"
+      - "xform/(.)eng$/$1Ⓖ/"
+      - "xform/[iu]ang$/Ⓛ/"
+      - "xform/(.)ang$/$1Ⓗ/"
+      - "xform/ian$/Ⓜ/"
+      - "xform/(.)an$/$1Ⓙ/"
+      - "xform/(.)ou$/$1Ⓩ/"
+      - "xform/[iu]a$/Ⓧ/"
+      - "xform/iao$/Ⓝ/"
+      - "xform/(.)ao$/$1Ⓒ/"
+      - "xform/ui$/Ⓥ/"
+      - "xform/in$/Ⓑ/"
+      - "xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwrtyuiopsdfghjklzxcvbnm/"
