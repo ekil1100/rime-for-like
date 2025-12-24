@@ -9,3 +9,7 @@ sync/
 
 # macOS
 .DS_Store
+
+# 用户配置
+installation.yaml
+user.yaml
