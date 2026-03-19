@@ -1,4 +1,5 @@
 patch:
+  "switches/@0/reset": 1
   speller:
     algebra:
       - derive/^([zcs])h/$1/

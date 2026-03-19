@@ -5,4 +5,5 @@ customization:
   modified_time: "Wed Dec 24 15:20:26 2025"
   rime_version: 1.13.1
 patch:
+  global_ascii: false
   "style/color_scheme": dark_temple
